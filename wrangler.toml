@@ -1,0 +1,12 @@
+name = "neuron-x"
+compatibility_date = "2024-11-01"
+pages_build_output_dir = "public"
+
+[vars]
+ENVIRONMENT = "production"
+DEFAULT_MODEL = "neuron-x-9b-speculative"
+EDGE_NETWORK = "Cloudflare Global Anycast"
+
+# Optional Cloudflare Workers AI binding if user configures Workers AI
+# [ai]
+# binding = "AI"

@@ -1,0 +1,24 @@
+{
+  "name": "neuron-x",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Neuron-X - Distributed Tensor Mesh for Real-Time Edge Intelligence",
+  "scripts": {
+    "test": "node scripts/test-endpoints.js",
+    "dev": "wrangler pages dev public",
+    "deploy": "wrangler pages deploy public --project-name=neuron-x"
+  },
+  "keywords": [
+    "ai",
+    "edge-computing",
+    "tensor-mesh",
+    "cloudflare-pages",
+    "cloudflare-workers",
+    "speculative-decoding"
+  ],
+  "author": "Neuron-X Engineering Team",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
