@@ -15,11 +15,19 @@ By coupling speculative token drafting with Cloudflare's global Anycast edge net
 
 An authoritative DNS reconnaissance on `neuron-x.tech` reveals the following current DNS topology:
 
-### Current Authoritative Name Servers:
-* `tech-domains.venus.orderbox-dns.com`
-* `tech-domains.mercury.orderbox-dns.com`
-* `tech-domains.earth.orderbox-dns.com`
-* `tech-domains.mars.orderbox-dns.com`
+### Assigned Cloudflare Nameservers (Ready):
+* **`annalise.ns.cloudflare.com`**
+* **`nicolas.ns.cloudflare.com`**
+
+### Active DNS Records Configured on Cloudflare:
+| Type | Name | Content / Target | Proxy |
+| :--- | :--- | :--- | :--- |
+| **CNAME** | `@` | `neuron-x.pages.dev` | **Proxied (Orange Cloud)** |
+| **CNAME** | `www` | `neuron-x.pages.dev` | **Proxied (Orange Cloud)** |
+| **MX** | `@` | `mx.zoho.in` (Priority 10) | DNS Only |
+| **MX** | `@` | `mx2.zoho.in` (Priority 20) | DNS Only |
+| **MX** | `@` | `mx3.zoho.in` (Priority 50) | DNS Only |
+| **TXT** | `@` | `zoho-verification=...` & `v=spf1 ...` | DNS Only |
 
 ### SOA (Start of Authority) Record:
 * **Primary Server**: `tech-domains.mercury.orderbox-dns.com`
