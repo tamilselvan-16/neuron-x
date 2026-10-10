@@ -5,6 +5,10 @@ Neuron-X is a high-throughput, edge-native neural inference engine designed to e
 
 By coupling speculative token drafting with Cloudflare's global Anycast edge network (310+ cities worldwide), Neuron-X terminates TLS at the user's nearest Point of Presence (PoP) and delivers **sub-15ms Time-To-First-Token (TTFT)**.
 
+* **Live Cloudflare Site**: [https://neuron-x.pages.dev](https://neuron-x.pages.dev)
+* **GitHub Repository**: [https://github.com/tamilselvan-16/neuron-x](https://github.com/tamilselvan-16/neuron-x)
+* **Target Domain**: `neuron-x.tech`
+
 ---
 
 ## 1. Domain & DNS Analysis for `neuron-x.tech`
